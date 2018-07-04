@@ -1,0 +1,1287 @@
+<!DOCTYPE　html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="https://images.zhongmin.cn/00/iconfont/iconfont.css">
+    <link href="https://images.zhongmin.cn/00/wap/css/header750.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://images.zhongmin.cn/zhongmin_wap2017/detail/css/details.css" />
+    <script type="text/javascript" src="https://images.zhongmin.cn/wap/js/base750.js"></script>
+    <script type="text/javascript" src="https://images.zhongmin.cn/wap/js/jquery-1.9.1.min.js"></script>
+    <script src="https://m.zhongmin.cn/Scripts/iscroll.js"></script>
+    <style>
+       
+    </style>
+</head>
+
+<body>
+    <header class="header-xq">
+        <a class="back-icon com-icon p-abs" href=""></a>
+        <div class="more-icon com-icon p-abs">
+            <!--展开框-->
+            <div class="more-menu-box" style="display: none">
+                <span class="more-i-sjx"></span>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="iconfont icon-fenxiang2 more-i-fenxiang2"></span>
+                            <span>分享</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="iconfont icon-shoucang more-i-collect"></span>
+                            <span>收藏</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="iconfont icon-wode more-i-my"></span>
+                            <span>我的</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="iconfont icon-shouye more-i-home"></span>
+                            <span>首页</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <a class="cart-icon com-icon p-abs" href=""></a>
+    </header>
+    <div>
+        <img src="http://images.zhongmin.cn/zhongmin_wap2017/detail/images/banner-bg.png" class="com-img banner" />
+        <!--限时特惠-->
+        <div class="limit-time-box">
+            <div class="flo-l mt20" style="display: none">
+                <span class="lt-left-tit">限时特惠</span>
+                <em class="lt-tab">特价</em>
+                <em class="lt-tab">送红酒</em>
+            </div>
+            <div class="flo-l mt4">
+                <p class="lt-left-tit">限时特惠</p>
+                <span class="lt-det">限时加佣+10%</span>
+                <em class="lt-tab1">特价</em>
+                <em class="lt-tab1">送红酒</em>
+            </div>
+            <div class="flo-r">
+                <p class="lt-right-tit">距结束仅剩</p>
+                <p>
+                    <span class="lt-bg">02</span>时
+                    <span class="lt-bg">08</span>分
+                    <span class="lt-bg">35</span>秒</p>
+            </div>
+        </div>
+        <div class="detail-box">
+            <h4>中民成年人意外综合保障计划-计划一</h4>
+            <div>
+                <span class="det-list1">承保年龄 : 出生满38天-60周岁</span>
+                <em class="gap-box">|</em>
+                <span class="det-list1">保障期限 : 1-365天</span>
+                <em class="gap-box">|</em>
+                <span class="profession-btn">1-5类职业</span>
+            </div>
+        </div>
+        <div class="fav-box" id="wrapper1">
+            <ul class="favourable clearfix">
+                <li>600万医疗险</li>
+                <li>可续保至99岁</li>
+                <li>免费安排就医</li>
+            </ul>
+        </div>
+        <script>
+            $(function () {
+                var favWidth = 0;
+                for (i = 0; i < $('.favourable li').length; i++) {
+                    favWidth += $('.favourable li').eq(i).outerWidth();
+                    console.info(favWidth)
+                }
+                $('.favourable').css({ 'width': favWidth + 20 })
+                var myScroll = new iScroll('wrapper1', { hScroll: true, vScroll: true, hScrollbar: false, onBeforeScrollStart: null });
+
+
+                var favWidth = 0;
+                for (i = 0; i < $('.new-pro-box li').length; i++) {
+                    favWidth += $('.new-pro-box li').eq(i).outerWidth();
+                }
+                $('.new-pro-box').css({ 'width': favWidth + 20 })
+            })
+        </script>
+        <div>
+            <div style="display: none">
+                <div class="pro-list-box">
+                    <h4 class="pro-list-tit">
+                        <span class="flo-l">意外伤害</span>
+                        <span class="flo-r">
+                            <select class="select">
+                                <option value="">10万</option>
+                            </select>
+                            <script>
+                                $(function () {
+                                    $('.select').click(function (event) {
+                                        event.stopPropagation()
+                                    })
+                                })
+                            </script>
+                            <i class="iconfont icon-zhankaida com-iconfont" attr-nums="1"></i>
+                        </span>
+                        <img src="http://images.zhongmin.cn/zhongmin_wap2017/detail/images/zk-icon.png" class="zk-icon" />
+                    </h4>
+                    <div class="pro-list-con" style="display: none;">
+                        <ul class="ins-rate-tab clearfix">
+                            <li class="in-cur">10万</li>
+                            <li>20万</li>
+                            <li>30万</li>
+                        </ul>
+                        被保险人自意外伤害事故发生之日起180日内以该次意外伤害为直接原因身故的保险公司给付身故保险金，合同终止；若被保险人遭受意外伤害，并自意外伤害发生之日起180日内以该次意外伤害为直接原因导致伤残，保险公司按约定比例给付残疾保险金，最高不超过10万元。
+                    </div>
+                    <h4 class="pro-list-tit">
+                        <span class="flo-l">意外医疗</span>
+                        <span class="flo-r">10000元
+                            <i class="iconfont icon-zhankaida com-iconfont" attr-nums="1"></i>
+                        </span>
+                        <img src="http://images.zhongmin.cn/zhongmin_wap2017/detail/images/zk-icon.png" class="zk-icon" />
+                    </h4>
+                    <div class="pro-list-con" style="display: none;">2</div>
+                    <h4 class="pro-list-tit">
+                        <span class="flo-l">意外住院津贴</span>
+                        <span class="flo-r">60元/天
+                            <i class="iconfont icon-zhankaida com-iconfont" attr-nums="1"></i>
+                        </span>
+                        <img src="http://images.zhongmin.cn/zhongmin_wap2017/detail/images/zk-icon.png" class="zk-icon" />
+                    </h4>
+                    <div class="pro-list-con" style="display: none;">3</div>
+                </div>
+                <div class="pro-list-box" style="display: none">2</div>
+                <div class="pro-list-box" style="display: none">3</div>
+            </div>
+            <!--保障计划 -->
+            <div class="pro-infor bg-fff clearfix">
+                <dl>
+                    <dt>
+                        <div class="flo-l">
+                            <span class="title-icon"></span>保障计划</div>
+                    </dt>
+                </dl>
+                <div class="plan-box">
+                    <ul>
+                        <li>被保人类型1</li>
+                        <li class="clearfix">
+                            <span class="flo-l">保险期限</span>
+                            <select class="sel-style right-icon flo-r">
+                                <option class="">1年</option>
+                            </select>
+                        </li>
+                        <li class="clearfix">
+                            <span class="flo-l">职业</span>
+                            <span class="c-999 right-icon flo-r">请选择</span>
+                        </li>
+                        <li class="clearfix">
+                            <span class="flo-l">被保人数</span>
+                            <p class="flo-r">
+                                <span class="reduce co-btn"></span>
+                                <input class="number-box spe-box" type="text" value="1">
+                                <span class="add co-btn"></span>
+                            </p>
+                        </li>
+                        <li class="clearfix">
+                            <span class="flo-l">意外身故、伤残
+                                <em class="help-tips"></em>
+                                <em class="sicon">主险</em>
+                            </span>
+                            <select class="sel-style right-icon flo-r">
+                                <option class="">请选择</option>
+                            </select>
+                            <div class="help-con p-rel">
+                                被保险人自意外伤害事故发生之日起180日内以该次意外伤害为直接原因身故的保险公司给付身故保险金，合同终止；若被保险人遭受意外伤
+                                <img src="https://images.zhongmin.cn/zhongmin_wap2017/detail/images/zk-icon.png" class="sj-icon" style="display: inline;">
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <span class="flo-l">
+                                意外医疗
+                                <em class="help-tips"></em>
+                            </span>
+                            <select class="sel-style right-icon flo-r">
+                                <option class="">请选择</option>
+                            </select>
+                        </li>
+                        <li class="clearfix">
+                            <span class="flo-l">
+                                意外住院津贴
+                                <em class="help-tips"></em>
+                            </span>
+                            <select class="sel-style right-icon flo-r">
+                                <option class="">请选择</option>
+                            </select>
+                        </li>
+                    </ul>
+                    <div class="more">查看更多
+                        <img src="https://images.zhongmin.cn/00_wap2017/tuanyixian/images/down.png" class="down-icon rotate">
+                    </div>
+                </div>
+                <div class="add-per-btn">
+                    <img src="https://images.zhongmin.cn/00_wap2017/tuanyixian/images/add-btn.png">添加被保人类型</div>
+            </div>
+
+
+
+            <div class="redbg-wrap">
+                <span class="red-tab">推广费</span>
+                <span class="red-con">首年35%，第2年10%，第3年5%，…</span>
+                <i class="iconfont icon-gengduo more-btn"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--邱辉凯部分-->
+    <div id="infoDiv" class="infoDiv">
+        <span class="divider"></span>
+        <!--用户评论-->
+        <div class="pro-infor bg-fff">
+            <dl>
+                <dt>
+                    <div class="flo-l">
+                        <span class="title-icon"></span>产品特色
+                    </div>
+                </dt>
+                <dd></dd>
+            </dl>
+        </div>
+    </div>
+
+
+    <div id="infoDiv" class="infoDiv">
+        <span class="divider"></span>
+        <!--用户评论-->
+        <div class="pro-infor bg-fff">
+            <dl>
+                <dt>
+                    <div class="flo-l">
+                        <span class="title-icon"></span>购买须知
+                    </div>
+                </dt>
+                <dd>
+                    <div class="flo-l info-tit c-333">犹豫期</div>
+                    <div class="info-text c-999">
+                        无犹豫期，退保将造成损失
+                    </div>
+                </dd>
+                <dd>
+                    <div class="flo-l info-tit c-333">等待期</div>
+                    <div class="info-text c-999">
+                        疾病住院或门诊30天。重疾赠险90天，因意外伤害事故导致的医疗责任或连续投保无等待期
+                    </div>
+                </dd>
+                <dd>
+                    <div class="flo-l info-tit c-333">免赔额</div>
+                    <div class="info-text c-999">
+                        无犹豫期，退保将造成损失
+                    </div>
+                </dd>
+                <dd>
+                    <div class="flo-l info-tit c-333">赔付比例</div>
+                    <div class="info-text c-999">
+                        有社保并以社保身份投保100%；未以社保身份投保100%；以有社保身份投保但未以社保身份就医并诊断的60%
+                    </div>
+                </dd>
+                <dd>
+                    <div class="flo-l info-tit c-333">投保限制</div>
+                    <div class="info-text c-999">
+                        外籍人士可投保，但需在中国境内拥有居留证或长期居住权，或持有中华人民共和国政府部门签发的工作签证，但医疗费用不承保在台湾、香港、澳门地区或中国境外发生的治疗
+                    </div>
+                </dd>
+                <dd>
+                    <div class="flo-l info-tit c-333">医院要求</div>
+                    <div class="info-text c-999">
+                        中国大陆二级或二级以上公立医院，北京市平谷区、密云县、怀柔区所有医院除外
+                    </div>
+                </dd>
+                <dd>
+                    <div class="flo-l info-tit c-333">职业要求</div>
+                    <div class="info-text c-999">
+                        被保险人职业限为1-4类；高空作业工作人员，不可作为被保险人投保本产品，根据条款免责规定，被保险人从事潜水（见条款7.9）、空中运动（见条款7.10）、攀岩（见条款7.11）、探险（见条款7.12）、摔跤、武术（见条款7.13）、特技表演（见条款7.14）、赛马、赛车及其他高危险活动或高危险运动不在本产品保障范围内
+                    </div>
+                </dd>
+                <dd>
+                    <div class="flo-l info-tit c-333">特别提示</div>
+                    <div class="info-text c-999">
+                        本计划一经承保不办理任何形式的撤保、退保、加保、人员变更、挂失
+                    </div>
+                </dd>
+                <dd>
+                    <div class="flo-l info-tit c-333">保单验真</div>
+                    <div class="info-text c-999">
+                        本计划为网络销售产品，网上投保、网上支付、网上即时核保并出具保险凭证，您可通过泰康在线客服热线95522-3查询验真
+                    </div>
+                </dd>
+                <dd>
+                    <div class="flo-l info-tit c-333">保全服务</div>
+                    <div class="info-text c-999">
+                        点击查看
+                        <span class="bq-btn">保全办法</span>
+                    </div>
+                </dd>
+            </dl>
+
+        </div>
+        <script>
+            $(function () {
+                $('.cmore-btn').click(function () {
+                    $('.tb1-con').toggleClass('hide-state');
+                    if ($('.cmore-btn').text() == '点击查看全部') {
+                        $('.cmore-btn').text('点击收起');
+                        console.info(1)
+                    } else {
+                        $('.cmore-btn').text('点击查看全部');
+                    }
+                })
+            })
+        </script>
+    </div>
+    <span class="divider"></span>
+    <div id="comentDiv" class="comentDiv">
+        <!--用户评论-->
+        <div class="pro-infor bg-fff">
+            <dl>
+                <dt>
+                    <div class="flo-l">
+                        <span class="title-icon"></span>评论
+                        <span id="spCount" class="c-333">(867)</span>
+                    </div>
+                    <span class="flo-r c-org">
+                        <span id="spPercent">80%推荐</span>
+                        <span class="iconfont icon-youjiantouda arrow-right"></span>
+                    </span>
+                </dt>
+                <dd>
+                    <div class="comment-top">
+                        <span class="comment-name">
+                            <img src="http://images.zhongmin.cn/wap/images/coment/5.png">137595***</span>
+                        <span class="comment-time">2017-08-07</span>
+                    </div>
+                    <div class="comment-txt">
+                        <p>一直在寻找一款性价比较高的重疾险，比较了至少50款各大保险公司的重疾险后，选中了中民健康保障计划。觉得覆盖人群广，保障范围也很实用，实在是一款极为值得长期购买的产品。</p>
+                    </div>
+                    <div class="comment-reply">
+                        <span class="icon-s"></span>回复：感谢您对零零网的支持，我们会一如既往地地提供更高质量的产品。</div>
+                </dd>
+                <dd>
+                    <div class="comment-top">
+                        <span class="comment-name">
+                            <img src="http://images.zhongmin.cn/wap/images/coment/12.png">游客</span>
+                        <span class="comment-time">2017-08-04</span>
+                    </div>
+                    <div class="comment-txt">
+                        <p>一直在寻找一款性价比较高的重疾险，比较了至少50款各大保险公司的重疾险后，选中了中民健康保障计划。觉得覆盖人群广，保障范围也很实用，实在是一款极为值得长期购买的产品。</p>
+                    </div>
+                </dd>
+            </dl>
+            <p class="t-ctr">
+                <a href="javascript:;" class="all-comment-btn">查看全部</a>
+            </p>
+        </div>
+        <!--用户评论-->
+    </div>
+    <span class="divider"></span>
+    <div class="bottom-items" id="bottom">
+        <ul>
+            <li>
+                <a data-role="none" data-ajax="false">
+                    <span class="iconfont icon-toubaoxuzhi bottom-items-i"></span>投保须知</a>
+            </li>
+            <li>
+                <a data-role="none" data-ajax="false">
+                    <span class="iconfont icon-chanpintiaokuan bottom-items-i"></span>产品条款</a>
+            </li>
+            <li>
+                <a data-role="none" data-ajax="false" href="http://baodan.zhongmin.cn/clause/health/客户告知书.pdf">
+                    <span class="iconfont icon-kehugaozhishu bottom-items-i"></span>客户告知书</a>
+            </li>
+            <li>
+                <a data-role="none" data-ajax="false" href="http://baodan.zhongmin.cn/example/healthsick/policy_925.jpg">
+                    <span class="iconfont icon-xinxipilu bottom-items-i"></span>保单样本</a>
+            </li>
+        </ul>
+    </div>
+    <span class="divider"></span>
+    <div style="padding-bottom:20px;padding-top:10px;" id="zmbxfoot">
+        <a href="tel:400-8822-300" class="ui-link">
+            <img src="http://images.zhongmin.cn/wap/images/rebate/index_call.png" style="width:90%; margin-left:5%;">
+        </a>
+    </div>
+
+    <!--20180409-->
+
+    <div>
+        <img src="https://images.zhongmin.cn/zhongmin_wap2017/detail/images/footer-img1.jpg" class="com-img" />
+        <a class="footer-img1" href="http://m201801.zhongmin.cn/SettionMore/Aboutus">
+            <img src="https://images.zhongmin.cn/zhongmin_wap2017/detail/images/footer-img2.jpg" class="com-img" />
+        </a>
+        <p class="footer-img2">中民保险经纪保险销售业务许可证：
+            <a href="https://images.zhongmin.cn/images/%E4%BF%9D%E9%99%A9%E7%BB%8F%E7%BA%AA%E4%B8%9A%E5%8A%A1%E8%AE%B8%E5%8F%AF%E8%AF%81.jpg">260636000000800</a>
+        </p>
+    </div>
+
+    <div class="bottom-h"></div>
+    <div class="fixed-bottom">
+        <div id="zmPayBtn">
+            <div class="table t-ctr">
+                <ul class="table-row">
+                    <li class="table-cell fixed-kefu-box">
+                        <a href="/wap/serviceRedirect.aspx" data-role="none" data-ajax="false">
+                            <div class="t-ctr">
+                                <img src="http://images.zhongmin.cn/wap/images/kefu.png" style="height: 2.5rem;">
+                                <br>客服</div>
+                        </a>
+                    </li>
+                    <li class="table-cell fixed-price-box" style="width:30%;">
+                        <p class="fixed-price" style="display: inline-block;vertical-align: middle">
+                            <span id="lbFooterPrice">380.00</span>
+                            <span style="font-size: 1.2rem;">元</span>
+                            <br/>
+                            <span style="font-size: 1.2rem;">推广费：45%</span>
+                        </p>
+                        <img src="https://images.zhongmin.cn/00_wap2017/tuanyixian/images/down.png" class="down-icon">
+                    </li>
+                    <!-- <li class="table-cell fixed-share-box">
+                    <p><a href="javascript:;">发给客户<br><span style="font-size: 1.1rem;">分享后推广费隐藏</span></a></p>
+                </li>-->
+                    <li class="table-cell fixed-addcar-box">
+                        <a class="fixed-addbtn" data-role="none">制作计划书 </a>
+                    </li>
+                    <li class="table-cell">
+                        <a onclick="showTips()" class="fixed-btn" data-role="none">去Pc端投保 </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!--报价明细  -->
+    <div class="bjmx-box" style="bottom:-81%;">
+        <h3 class="xsth-tit">
+            <p>中国人寿财险安心保团体人…</p> 
+            <p>报价明细</p>
+            <i class="iconfont icon-guanbi flo-r xsth-close"></i>
+        </h3>
+        <div class="bj-scroll-wrap">
+           <div class="bjmx-ul-wrap">
+                <ul class="bjmx-ul">
+                <li>
+                    <div>
+                        <span class="bj-limit">维修工、司机</span>
+                        <span class="flo-r">99.60元/人</span>
+                    </div>
+                    <div>
+                        <span>二类职业</span>
+                        <span class="flo-r">55人</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <span class="bj-limit">搬运行李服务人员搬…</span>
+                        <span class="flo-r"><em class="down-off">已享9.0折</em>99.60元/人</span>
+                    </div>
+                    <div>
+                        <span>三类职业</span>
+                        <span class="flo-r">55人</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <span class="bj-limit">搬运行李服务人员搬…</span>
+                        <span class="flo-r"><em class="down-off">已享9.0折</em>99.60元/人</span>
+                    </div>
+                    <div>
+                        <span>三类职业</span>
+                        <span class="flo-r">55人</span>
+                    </div>
+                </li>
+                </ul>
+                <div class="tot-box">
+                    <span>保费合计</span>
+                    <span class="flo-r c-org"><em class="down-off">已享9.0折</em><span class="f30">2680.00</span><span class="f24">元</span><span class="tz-btn" >调整</span></span>
+                </div>
+                <div class="tot-box">
+                    <span>推广费</span>
+                    <select class="flo-r c-org right-icon sel-style">
+                        <option value="">25%</option>
+                    </select>
+                </div>
+           </div>
+           <p class="wx-tips">温馨提示：</p>
+           <p class="c-999 f14">本报价结果仅供参考，请前往零零网PC版网站的“团体意外保险”进行报价和投保。<br/> 您也可以拨打零零网客服热线获取更多团意险信息，热线电话：400-6611-300</p>
+        </div>
+    </div>
+    <!--修改保费-->
+    <div class="xgbf-box" style="bottom:-36%;">
+        <h3 class="xsth-tit">
+            <p>修改保费</p> 
+            <i class="iconfont icon-guanbi flo-r xgbf-close"></i>
+        </h3>
+        <ul class="xgbf-ul">
+            <li>
+                <span>保费提升比例 (%)</span>
+                <p class="flo-r">
+                    <span class="reduce co-btn"></span>
+                    <input class="number-box spe-box" value="1" type="text">
+                    <span class="add co-btn"></span>
+                </p>
+            </li>
+            <li>
+                <span>保费合计</span>
+                <span class="flo-r c-org"><span class="f30">2680.00</span><span class="f24">元</span></span>
+            </li>
+        </ul>
+        <div class="p-abs xgbf-btn">确认</div>
+    </div>
+    
+    <!--保全服务办法-->
+    <div class="bqfw-box" style="height:77%;bottom:-77%;">
+        <h3 class="xsth-tit">
+            <p>保全服务办法</p> 
+            <i class="iconfont icon-guanbi flo-r bqfw-close"></i>
+        </h3>
+        <div class="bqfw-div">
+            <dl>
+                <dt>生效时间</dt>
+                <dd>根据企业团体人员的流动，可以进行相应的被保险人人员更换（无替换率限制），
+                    批增、批减及更换人员的生效时间最早为申请之日起的第二个工作日（工作日16:00前提交申请，否则延迟生效）</dd>
+            </dl>
+            <dl>
+                <dt>保全资料</dt>
+                <dd>生情书盖章扫描件</dd>
+            </dl>
+            <dl>
+                <dt>职业限制</dt>
+                <dd>新保全单不能有原单没有的职业代码</dd>
+            </dl>
+            <dl>
+                <dt>人数限制</dt>
+                <dd>新保全单人数不能小于最低起保人数，也不能改变保单原有的承保限制，已发生理赔的被保险人不能进行批减。</dd>
+            </dl>
+            <dl>
+                <dt>费用相关</dt>
+                <dd>如需补缴保费，请于当天16点前完成支付，因第二天保费已经发生改变。保全单推广费的变动按照原单出单时的比例执行。</dd>
+            </dl>
+            <dl>
+                <dt>其它问题</dt>
+                <dd>保全信息的其它变更请咨询在线客服或拨打客服热线400-6611-300</dd>
+            </dl>
+        </div>
+        <div class="p-abs bqfw-btn">我知道了</div>
+    </div>     
+    <!-- 去pc投保 -->
+    <div class="pc-box" style="display: none">
+         <p>请前往零零网电脑端网站投保，<br/> 网址：www.00.com.cn</p>
+         <div class="pc-btn">我知道了</div>
+    </div>
+    <script>
+            $(function () {                       
+                $('.add').click(function () {
+                    var val = +    $(this).prev('.number-box').val() + 1;
+                    $(this).prev('.number-box').val(val)
+                    if ($(this).prev('.number-box').val() > 1) {
+                        $(this).prev().prev('.reduce').addClass('reduce2')
+                    } else {
+                        $(this).prev().prev('.reduce').removeClass('reduce2')
+                    }
+                })
+                $('.reduce').click(function () {
+                    var val = +    $(this).next('.number-box').val() - 1;
+                    if ($(this).next('.number-box').val() < 2) {
+                        $(this).next('.number-box').val(1)
+                    } else {
+                        $(this).next('.number-box').val(val)
+                    }
+                    if ($(this).next('.number-box').val() == 1) {
+                        $(this).removeClass('reduce2')
+                    }
+                })
+               
+                 //报价明细
+                $('.fixed-price-box').click(function(){
+                    $('.bjmx-box').animate({ 'bottom': 0 }, 300);
+                    $('.body-shade').show()
+                    $(this).find('.down-icon').addClass('rotate')
+                })
+                $('.xsth-close').click(function(){
+                    $('.bjmx-box').animate({ 'bottom': '-81%' }, 300);
+                    $('.body-shade').hide()
+                    $('.fixed-price-box').find('.down-icon').removeClass('rotate')
+                })
+                //修改保费
+                $('.tz-btn').click(function(){
+                    $('.xgbf-box').animate({ 'bottom': 0 }, 300);
+                    $('.body-shade').css({'z-index':111})
+                })
+                function closeBox_n(btn,box,h_val){
+                    btn.click(function(){
+                        box.animate({ 'bottom': h_val }, 300);
+                        $('.body-shade').css({'z-index':100})
+                    })               
+                }
+                closeBox_n( $('.xgbf-close'), $('.xgbf-box'),'-36%')
+                closeBox_n(  $('.xgbf-btn'), $('.xgbf-box'),'-36%')
+
+               //保全服务
+                $('.bq-btn').click(function(){
+                    $('.bqfw-box').animate({ 'bottom': '0' }, 300);
+                    $('.body-shade').show()
+                })
+                function closeBox(btn,box,h_val){
+                    btn.click(function(){
+                        box.animate({ 'bottom': h_val }, 300);
+                        $('.body-shade').hide();
+                    })               
+                }
+                closeBox($('.bqfw-close'),$('.bqfw-box'),'-77%')
+                closeBox($('.bqfw-btn'),$('.bqfw-box'),'-77%')
+
+                //
+                $('.fixed-btn').click(function(){
+                    $('.pc-box').show()
+                    $('.body-shade').show()
+                })
+                $('.pc-btn').click(function(){
+                    $('.pc-box').hide()
+                    $('.body-shade').hide()
+                })
+            })
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--投保须知-->
+    <div class="tbxz-box p-rel">
+        <h3 class="tbxz-tit">投保须知</h3>
+        <div class="scroll-box">
+            <div class="tb1-wrap">
+                <div class="tb1-box">
+                    <i class="iconfont icon-toubaoxuzhi norprob-icon"></i>
+                    <span>常见问题</span>
+                    <i class="iconfont icon-zhankaida norright-icon flo-r"></i>
+                </div>
+                <ul class="tb1-con" style="display: none">
+                    <div>
+                        <dl>
+                            <dt>
+                                等待期是什么意思？</dt>
+                            <dd>
+                                <p>
+                                    等待期是为防止被保险人带病投保，或逆选择，保险公司规定从保险合同生效（或复效）之日起的一段时间内发生的因疾病导致的重大疾病或者住院医疗，保险公司不予以赔付，这个期间就是等待期。本计划的等待期为90天。
+                                    <br> 若因意外事故造成的条款内约定的重大疾病，则不受等待期的限制。
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                如果已经有社保，那还有必要买重疾险吗？</dt>
+                            <dd>
+                                <p>
+                                    与社保报销医疗费的方式不同，重疾险是一个专门重疾的保障，一旦确诊，立即赔付，无需提供任何发票。本着诚信的原则，本计划不需要做事前的健康检查，但在 投保前需要如实回答健康问题，在理赔审核阶段，会调查您回答的问题是否符合事实，若与回答不符，有可能无法理赔。同时虽然社保覆盖率在逐渐提高，但仅提供
+                                    基础治疗，不少治疗重疾的药物都不在医保范围内，且价格十分昂贵。重大疾病的治疗费用一般都在20万元左右，所以准备一份重疾保险，可以有效减轻经济压力。
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                给孩子投保时，为什么要尽量选择高保额？会不会跟监管要求的未成年人最高身故保额有冲突？</dt>
+                            <dd>
+                                <p>
+                                    长期型的寿险产品，年龄越小要缴的累计保费会越低。因此相对成年后再增加保额的方案，越小投保足额保额的方案就更为划算。另外随着年龄增加，符合投保健康约束的可能性会逐步降低，可能出现无法加保的情况。</p>
+                                <p>
+                                    保监会在2016年实施的未成年人最高身故保额限制为：年龄＜10周岁的，保险公司赔付的身故保额不得超过20万。 在本产品中，前述年龄的未成年人最高可以投保50万的身故保额，但赔付约定是：当被保人在十周岁后的首个保单周年日之前身故，则赔付已交保费的150%；当被保人在十周岁后的首个保单周年日之后身故，则赔付基本保险金额。即是说：这款产品既满足监管的要求，又能够让孩子从小投保足够保额，减轻后续加保的麻烦和多出的经济负担。</p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                轻症豁免保费责任的赔付金额，有哪些需要注意的？</dt>
+                            <dd>
+                                <p>
+                                    轻症豁免保费责任赔付的金额，为轻症确诊日起后的各期应交保费。不包括轻症确诊日之前的欠交保费及其利息，也不包括该保单进行保单贷款的应还贷款金额及其利息。因此，轻症确诊后，后续应交的保费均不用再交。但此前欠交的保费，还应补交，才能顺利让保险公司履行轻症豁免保费的责任。</p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                君龙人寿分支机构较少，是否对后续的保全及理赔有所影响？</dt>
+                            <dd>
+                                <p>
+                                    君龙人寿分支机构虽少，但有一只强大高效的运营团队，保全（含退保）支持电子版材料，通过邮件办理，理赔亦无需去到当地柜面，只要邮寄纸质版理赔材料原件即可。相当方便。</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </ul>
+
+            </div>
+            <div class="tb1-wrap">
+                <div class="tb1-box">
+                    <i class="iconfont icon-toubaoxuzhi norprob-icon"></i>
+                    <span>服务指引</span>
+                    <i class="iconfont icon-zhankaida norright-icon flo-r"></i>
+                </div>
+                <ul id="divCompanyClause" class="tb1-con" style="display: none">
+                    <div>
+                        1）承保机构</div>
+                    <div>
+                        本计划承保保险公司：君龙人寿保险有限公司。该公司在福建、浙江设有分支机构。保险公司没有设立分公司的地区，保险公司可能存在服务不到位、时效差等情况，如需帮助可拨打中民保险网7X24小时客户服务热线：400-8822-300。&nbsp;</div>
+                    <div>
+                        2）承保方式</div>
+                    <div>
+                        本计划为中民保险网与君龙人寿系统对接出单，由中民保险网将客户填写信息传输至君龙人寿系统，系统核保，对通过核保业务发送电子保单至客户所填邮箱，实现承保。</div>
+                    <div>
+                        3）保全变更及退保、理赔服务</div>
+                    <div>
+                        通过中民保险网购买本保险的客户，后续的保单信息变更、退保须将资料寄到君龙人寿进行办理。理赔可以通过电话、邮件或QQ等向中民保险网提出申请，中民保险网协助您办理。</div>
+                    <div>
+                        4）退保金和理赔金支付</div>
+                    <div>
+                        客户申请中途退保，按照保险条款退保流程进行退保，退保金由（君龙人寿）转入投保人支付时使用的银行账户。</div>
+                    <div>
+                        客户申请理赔，并经保险公司核赔确定的理赔金，由（君龙人寿）将理赔款转入受益人确认的银行账户。</div>
+                    <div>
+                        &nbsp;5）保单、保险费发票的配送</div>
+                    <div>
+                        本计划仅提供电子保单，君龙人寿提供发票免费配送服务（工作日内受理，次日寄出，节假日顺延），配送标准如下：</div>
+                    <div>
+                        保费1000元及以下的，免费挂号信，预计3-5个工作日送达；</div>
+                    <div>
+                        保费1000元以上的，免费快递，预计2-3个工作日送达。</div>
+                </ul>
+            </div>
+            <div class="tb1-wrap">
+                <div class="tb1-box">
+                    <i class="iconfont icon-toubaoxuzhi norprob-icon"></i>
+                    <span>投保须知</span>
+                    <i class="iconfont icon-shouqida norright-icon flo-r"></i>
+                </div>
+                <ul id="divTips" class="tb1-con">
+                    <p>
+                        1、本保险计划由君龙人寿保险有限公司承保，目前该公司在福建、浙江有分支机构。本计划面向全国(港澳台地区除外)销售，后续保全、理赔等相关事务均可由中民保险网协助您办理。</p>
+                    <p>
+                        2、被保险人出生满28天-40周岁最高可投保50万元的保障计划（未成年人累计身故保额以监管机关规定的最高保额为准），年满41-45周岁最高可投保30万元的保障计划，46-50周岁最高可投保25万元的保障计划，51-55周岁最高可投保15万元的保障计划（
+                        <strong>该年龄段只能选择
+                            <strong>缴费期限为</strong>15年及以下的方式</strong>）。</p>
+                    <p>
+                        3、本保险计划等待期为自保险生效之日起
+                        <strong>90天</strong>，意外伤害导致重大疾病的无等待期。等待期又称观察期或免责期，是保险公司为了防止客户带病投保而指定的一个期间，在此期间即使发生保险事故，保险公司也不赔偿，仅无息退还已缴纳的保险费。</p>
+                    <p>
+                        4、本计划的被保险人须是投保人本人或者投保人父母、配偶或者子女；外籍人士亦可投保本计划，但需满足在中国境内固定居住满半年以上。</p>
+                    <p>
+                        5、本计划可指定受益人，受益人须是被保险人的父母、配偶或者子女。</p>
+                    <p>
+                        <strong>6、本计划被保险人的职业须为1-4类，详情请看
+                            <a href="http://images.zhongmin.cn/uploads/files/君龙人寿寿险职业表2010年3月（寿险）.pdf" target="_blank">
+                                <span style="color:#000000;">《君龙人寿职业分类表》</span>
+                            </a>。</strong>
+                    </p>
+                    <p>
+                        7、本保险计划中的医疗相关保障限定为中华人民共和国境内合法经营的二级以上（含二级）医院或保险公司认可的其他医疗机构，除了北京平谷区所有医院。请注意：北京平谷区所有医院的就医均不给予理赔，建议您去往其他区域二级以上（含二级）公立医院就医。</p>
+                    <p>
+                        8、本保险计划自收到电子保单的10日内为犹豫期。在犹豫期内，您可以充分考虑所购买的产品是否符合您的需要。如在犹豫期内退保，保险公司在收到投保人解除合同的申请后，您可以收回全额缴纳的保险费。</p>
+                    <p>
+                        9、
+                        <strong>为保障您的权益，投保前请先阅读《产品说明书》（
+                            <a href="http://images.zhongmin.cn/uploads/files/中民君康一生终身寿险附加重疾保障组合计划产品说明书.pdf" target="_blank">
+                                <span style="color: rgb(0, 0, 255);">
+                                    <u>点击阅读</u>
+                                </span>
+                            </a>）、《人身险投保提示》（
+                            <a href="http://baodan.zhongmin.cn/file2016/health/君龙人寿君康一生投保声明.pdf" target="_blank">
+                                <span style="color: rgb(0, 0, 255);">
+                                    <u>点击阅读</u>
+                                </span>
+                            </a>），并确认已阅读相关《投保声明》（
+                            <a href="http://images.zhongmin.cn/uploads/files/投保声明(10).pdf" target="_blank">
+                                <span style="color: rgb(0, 0, 255);">
+                                    <u>点击阅读</u>
+                                </span>
+                            </a>）。</strong>
+                    </p>
+                    <p>
+                        10、
+                        <strong>投保人和被保险人的税收居民身份均为“仅为中国税收居民”，方可投保本保险产品组合计划。若投保，视同确认下述内容：“本人（投保人）及被保险人均确认个人的税收居民身份为“仅为中国税收居民”。（如需了解税收居民，请
+                            <span style="color:#0000cd;">
+                                <u>
+                                    <a href="http://images.zhongmin.cn:8601/uploads/files/税收居民注释.pdf" target="_blank">点击查看</a>
+                                </u>
+                            </span>）</strong>
+                    </p>
+                    <p>
+                        11、君龙人寿
+                        <span style="  ; ; ; ">偿付能力充足率达到监管要求，如需了解该公司最近一季的偿付能力充足率和综合风险综合评级信息</span>
+                        <span style="  ; ; ; ">
+                            <span lang="EN-US">，请
+                                <span style="color:#0000cd;">
+                                    <strong>
+                                        <u>
+                                            <a href="http://images.zhongmin.cn/uploads/files/君龙人寿2016年第四季度偿付能力报告.pdf" target="_blank">点击查看</a>
+                                        </u>
+                                    </strong>
+                                </span>。</span>
+                        </span>
+                    </p>
+                    <p>
+                        <span>
+                            <span lang="EN-US">12、本保险计划为网络销售产品，网上投保、网上支付、网上即时核保并出具电子保单，无需体检，您可拨打君龙人寿的客服热线400-666-0123查询、验真。</span>
+                        </span>
+                    </p>
+                    <p>
+                        <span>
+                            <span lang="EN-US">
+                                <strong>13、温馨提示：投保人和被保险人不为同一人时方可投保附加投保人豁免保费责任。</strong>
+                            </span>
+                        </span>
+                    </p>
+                </ul>
+            </div>
+        </div>
+        <div class="tbxz-close-btn">
+            关 闭</div>
+    </div>
+    <!--产品条款-->
+    <div class="cptk-box p-rel">
+        <h3 class="tbxz-tit">产品条款</h3>
+        <div class="scroll-box">
+            <div id="divMain" class="tb1-wrap">
+                <div class="tb1-box">
+                    <i class="iconfont icon-tiaokuan norprob-icon"></i>
+                    <span>主条款</span>
+                </div>
+                <div class="tb1-link-box">
+                    <p class="tb1-mt20">
+                        君龙君康一生终身寿险条款</p>
+                    <a href="ClauseDetail.aspx?id=1489" data-ajax="false" class="tb1-link">
+                        详细条款</a>
+                    <a href="clauseExtDetail.aspx?id=1489" data-ajax="false" class="tb1-link">除外责任</a>
+                </div>
+            </div>
+            <div id="divElse" class="tb1-wrap">
+                <div class="tb1-box">
+                    <i class="iconfont icon-tiaokuan norprob-icon"></i>
+                    <span>附加条款</span>
+                </div>
+                <div class="tb1-link-box">
+                    <p class="tb1-mt20">
+                        君龙附加君康一生重大疾病保险条款</p>
+                    <a href="ClauseDetail.aspx?id=1490" data-ajax="false" class="tb1-link">
+                        详细条款</a>
+                    <a href="clauseExtDetail.aspx?id=1490" data-ajax="false" class="tb1-link">除外责任</a>
+                    <p class="tb1-mt20">
+                        君龙附加君康一生豁免保费重大疾病保险条款</p>
+                    <a href="ClauseDetail.aspx?id=1616" data-ajax="false" class="tb1-link">
+                        详细条款</a>
+                    <a href="clauseExtDetail.aspx?id=1616" data-ajax="false" class="tb1-link">除外责任</a>
+                </div>
+            </div>
+            <div id="divMain2" class="tb1-wrap">
+                <div class="tb1-box">
+                    <i class="iconfont icon-tiaokuan norprob-icon"></i>
+                    <span>主条款备案编号</span>
+                </div>
+                <div class="tb1-link-box">
+                    <p class="tb1-mt20">
+                        君龙君康一生终身寿险条款</p>
+                    <p>
+                        君龙人寿[2017]终身寿险007号</p>
+                </div>
+            </div>
+            <div id="divElse2" class="tb1-wrap">
+                <div class="tb1-box">
+                    <i class="iconfont icon-tiaokuan norprob-icon"></i>
+                    <span>附加条款备案编号</span>
+                </div>
+                <div class="tb1-link-box">
+                    <p class="tb1-mt20">
+                        君龙附加君康一生重大疾病保险条款</p>
+                    <p>
+                        君龙人寿[2017]疾病保险008号</p>
+                    <p class="tb1-mt20">
+                        君龙附加君康一生豁免保费重大疾病保险条款</p>
+                    <p>
+                        君龙人寿[2017]疾病保险010号</p>
+                </div>
+            </div>
+            <div class="tb1-wrap">
+                <a href="//baodan.zhongmin.cn/clause/health/health_925_5.pdf" data-ajax="false">
+                    <div class="tb1-box">
+                        <i class="iconfont icon-tiaokuan norprob-icon"></i>
+                        <span>费率表</span>
+                        <i class="iconfont icon-youjiantouda linright-icon flo-r"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="tbxz-close-btn">关 闭</div>
+    </div>
+    <!--限时特惠-->
+    <div class="xsth-box p-rel">
+        <h3 class="xsth-tit">限时特惠</h3>
+        <div class="scroll-box">
+            <div class="xsth-line">
+                <span class="xsth-tips flo-l">新品</span>
+                <div class="xsth-p">
+                    新品上架 本产品推广费高昂，5年缴费，佣金比例30%；10年缴费，佣金比例35%；20年缴费，佣金比例50%。（即日起至7月31日，在现有推广费的基础上，5年缴增加5%，10年缴增加15%，20年缴增加25%，最高可享75%推广费！）
+                </div>
+            </div>
+            <div class="xsth-line">
+                <span class="xsth-tips flo-l">活动</span>
+                <div class="xsth-p">零零网6.18大促，满100立减30元！</div>
+            </div>
+            <div class="xsth-hb-box">
+                <div class="hb-box">
+                    <div class="hb-price">
+                        <img src="http://images.zhongmin.cn/zhongmin_wap2017/detail/images/xsth-hb.png" alt="">
+                        <div class="hb-price-txt">
+                            &yen;
+                            <span style="font-size: 3rem">20</span>
+                            <br>
+                            <span>满200使用</span>
+                        </div>
+                    </div>
+                    <div class="hb-info">
+                        <p class="hb-tit">产品专享红包</p>
+                        <p class="hb-text">中民成年人意外综合保障计划-计划一</p>
+                        <p class="hb-time">2017.02.18 - 2018.02.18
+                            <a href="javascript:;" class="hb-redbtn">点击领取</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="hb-box">
+                    <div class="hb-price">
+                        <img src="http://images.zhongmin.cn/zhongmin_wap2017/detail/images/xsth-hb2.png" alt="">
+                        <div class="hb-price-txt">
+                            &yen;
+                            <span style="font-size: 3rem">20</span>
+                            <br>
+                            <span>满200使用</span>
+                        </div>
+                    </div>
+                    <div class="hb-info">
+                        <p class="hb-tit">产品专享红包</p>
+                        <p class="hb-time">2017.02.18 - 2018.02.18
+                            <a href="javascript:;" class="hb-bluebtn">点击领取</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="hb-box old-hb">
+                    <div class="hb-price">
+                        <img src="http://images.zhongmin.cn/zhongmin_wap2017/detail/images/xsth-hb3.png" alt="">
+                        <div class="hb-price-txt">
+                            &yen;
+                            <span style="font-size: 3rem">20</span>
+                            <br>
+                            <span>满200使用</span>
+                        </div>
+                    </div>
+                    <div class="hb-info">
+                        <p class="hb-tit">产品专享红包</p>
+                        <p class="hb-time">2017.02.18 - 2018.02.18</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tbxz-close-btn">关 闭</div>
+    </div>
+    <!--保费测算-->
+    <div class="bfcs-box p-rel">
+        <h3 class="xsth-tit">保费测算
+            <i class="iconfont icon-guanbi flo-r bfcs-close"></i>
+        </h3>
+        <div class="scroll-box c-333">
+            <dl style="margin-top:1rem">
+                <dd>
+                    <div class="flo-l bfcs-tit">保障计划</div>
+                    <div class="bfcs-text">
+                        <span class="com-item active">计划一</span>
+                        <span class="com-item">计划二</span>
+                        <span class="com-item">计划三</span>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="flo-l bfcs-tit">承保年龄</div>
+                    <div class="bfcs-text">
+                        <span class="input-box">
+                            <input type="date" class="age" value="1999-01-01">
+                        </span>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="flo-l bfcs-tit">性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别</div>
+                    <div class="bfcs-text">
+                        <span class="com-item">男</span>
+                        <span class="com-item active">女</span>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="flo-l bfcs-tit">保障期限</div>
+                    <div class="bfcs-text">
+                        <span style="margin-bottom: 2rem;">1年</span>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="flo-l bfcs-tit">保障期限</div>
+                    <div class="bfcs-text">
+                        <span class="com-item">7天</span>
+                        <span class="com-item active">30天</span>
+                        <span class="com-item">90天</span>
+                        <span class="com-item">半年</span>
+                        <span class="com-item">一年</span>
+                        <span class="com-item">两年</span>
+                        <span class="select-box">
+                            <div class="select-tit">更多选择</div>
+                            <select name="" id="" class="select">
+                                <option value="">三年</option>
+                                <option value="">四年</option>
+                                <option value="">五年</option>
+                            </select>
+                        </span>
+                        <span class="time-box">
+                            <input type="date" class="start-time" value="起保日期">
+                            <span class="icon-l">/</span>
+                            <input type="date" class="end-time" value="终保日期">
+                        </span>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="flo-l bfcs-tit">承保职业</div>
+                    <div class="bfcs-text">
+                        <span style="margin-bottom: 2rem;">1-4类</span>
+                        <span class="check-jobs">查询职业</span>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="flo-l bfcs-tit">有无社保</div>
+                    <div class="bfcs-text">
+                        <span class="com-item">有</span>
+                        <span class="com-item active">无</span>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="flo-l bfcs-tit">缴费期限</div>
+                    <div class="bfcs-text">
+                        <span class="com-item">10年</span>
+                        <span class="com-item active">20年</span>
+                        <span class="com-item">30年</span>
+                    </div>
+                </dd>
+                <dd style="margin-top:-1rem">
+                    <div class="bfcs-text c-999">
+                        <span style="font-size: 1.2rem">此优惠仅供参考，实际优惠以订单优惠为准</span>
+                    </div>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <!-- 分享提示弹窗 -->
+    <div class="share-tips-box" style="display: none">
+        <img src="http://images.zhongmin.cn/zhongmin_wap2017/detail/images/share-alert.png" alt="">
+        <span class="share-close-btn">我知道了</span>
+    </div>
+    <!--遮罩-->
+    <div class="body-shade" style="display: none"></div>
+
+    <div class="tips-shade" style="display: none;"></div>
+
+
+
+
+    <script>
+        $(function () {
+
+            var bannerHeight = parseInt($('html').css('font-size')) * 20.6;
+            $(window).scroll(function () {
+                var scrollTop = $(window).scrollTop();
+                if (scrollTop >= bannerHeight) {
+                    $('.header-xq').addClass('header-cur');
+                } else {
+                    $('.header-xq').removeClass('header-cur');
+                }
+            })
+
+            /*动态改变tab宽度*/
+            function changeWidth() {
+                var nums = $('.pro-tab-tit li').length;
+                switch (nums) {
+                    case 1:
+                        $('.pro-tab-tit li').css('width', '100%');
+                        break;
+                    case 2:
+                        $('.pro-tab-tit li').css('width', '49.2%');
+                        break;
+                    case 3:
+                        $('.pro-tab-tit li').css('width', '32.4%');
+                        break;
+                    case 4:
+                        $('.pro-tab-tit li').css('width', '23.9%');
+                        break;
+                    default:
+                        $('.pro-tab-tit li').css('width', 100 / nums - 1.4 + '%');
+                        $('.pro-tab-tit').css('width', 27.5 * nums + '%');
+                }
+            }
+            changeWidth();
+
+            /*tab项滑动*/
+            var myScroll = new iScroll('wrapper', { hScroll: true, vScroll: true, hScrollbar: false, onBeforeScrollStart: null });
+
+            $('.pro-list-tit').click(function () {
+                $(this).find('.zk-icon').toggle();
+                $(this).next('.pro-list-con').toggle();
+                if ($(this).find('.com-iconfont').attr('attr-nums') == 1) {
+                    $(this).find('.com-iconfont').addClass('icon-shouqida').removeClass('icon-zhankaida').attr('attr-nums', 0)
+                } else {
+                    $(this).find('.com-iconfont').addClass('icon-zhankaida').removeClass('icon-shouqida').attr('attr-nums', 1)
+                }
+            })
+
+            $('.pro-tab-tit li').click(function () {
+                var _index = $(this).index();
+                $(this).addClass('pro-tab-cur');
+                $('.pro-tab-tit li').not(':eq(' + _index + ')').removeClass('pro-tab-cur');
+                $('.pro-list-box').eq(_index).show();
+                $('.pro-list-box').not(':eq(' + _index + ')').hide();
+
+            })
+            $('.check-btn').click(function () {
+                if ($(this).attr('data-bool') == 0) {
+                    $(this).removeClass('icon-weixuanzhong').addClass('icon-xuanzhong').css('color', '#ffb400');
+                    $(this).attr('data-bool', 1);
+                } else {
+                    $(this).removeClass('icon-xuanzhong').addClass('icon-weixuanzhong').css('color', '#cacacf');
+                    $(this).attr('data-bool', 0);
+                }
+            })
+
+
+
+
+            $('.tb1-wrap').each(function () {
+                $(this).click(function () {
+                    if ($(this).find('.norright-icon').attr('class').indexOf('shouqida') != -1) {
+                        $(this).find('.tb1-con').hide();
+                        $(this).find('.norright-icon').addClass('icon-zhankaida').removeClass('icon-shouqida');
+                    } else {
+                        $(this).find('.tb1-con').show();
+                        $(this).find('.norright-icon').addClass('icon-shouqida').removeClass('icon-zhankaida');
+                    }
+                })
+            })
+            /*限时特惠弹框*/
+            $('.more-btn').click(function () {
+                $('.xsth-box').animate({ 'bottom': 0 }, 300);
+                $('.body-shade').show();
+                $('body').css({ 'overflow': 'hidden', 'position': 'fixed', 'height': '100%' });
+            })
+            /*保费测算弹框*/
+            $('.rate-check').click(function () {
+                $('.bfcs-box').animate({ 'bottom': 0 }, 300);
+                $('.body-shade').show();
+                $('body').css({ 'overflow': 'hidden', 'position': 'fixed', 'height': '100%' });
+            })
+            /*投保须知弹框*/
+            $('.icon-toubaoxuzhi').parent().click(function () {
+                $('.tbxz-box').animate({ 'bottom': 0 }, 300);
+                $('.body-shade').show();
+                $('body').css({ 'overflow': 'hidden', 'position': 'fixed', 'height': '100%' });
+            })
+            $('.tbxz-close-btn').click(function () {
+                $(this).parent().animate({ 'bottom': '-71%' }, 300);
+                $('.body-shade').hide();
+                $('body').css({ 'overflow': 'auto', 'position': 'relative', 'height': '' });
+                window.location.href = "#bottom";
+            })
+            $('.bfcs-close').click(function () {
+                $(this).parents('.bfcs-box').animate({ 'bottom': '-71%' }, 300);
+                $('.body-shade').hide();
+                $('body').css({ 'overflow': 'auto', 'position': 'relative', 'height': '' });
+                window.location.href = "#bottom";
+            })
+            /*产品条款*/
+            $('.icon-chanpintiaokuan').parent().click(function () {
+                $('.cptk-box').animate({ 'bottom': 0 }, 300);
+                $('.body-shade').show();
+                $('body').css({ 'overflow': 'hidden', 'position': 'fixed', 'height': '100%' });
+            })
+            /* toast 提示 */
+            function createAlert(con) {
+                var _obj = $('<div class="toast-box" style="position:fixed;left:25%;top:45%;width:50%;padding: 1rem;border-radius:4px;text-align: center;font-size: 1.4rem;color:#fff;background: rgba(0,0,0,0.7);">' + con + '</div>');
+                $('body').append(_obj);
+            }
+            createAlert('请输入真确手机号');
+            setTimeout(function () {
+                $('.toast-box').remove()
+            }, 3000)
+            /*保费测算 下拉框 */
+            $('.select option').click(function () {
+                var text = $(this).text();
+                $('.select-tit').text(text).addClass('active');
+                $(this).parents('.bfcs-text').find('.com-item').removeClass('active');
+            })
+            /*保费测算 com-item 事件*/
+            $('.com-item').click(function () {
+                $(this).parents('.bfcs-text').find('.com-item').removeClass('active');
+                $(this).parents('.bfcs-text').find('.select-tit').removeClass('active');
+                $(this).addClass('active');
+            })
+            /* 分享提示关闭 */
+            $('.share-close-btn').click(function () {
+                $('.share-tips-box').hide();
+            })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        })
+    </script>
+</body>
+
+</html>
